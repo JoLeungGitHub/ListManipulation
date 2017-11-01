@@ -8,4 +8,4 @@ def list_manipulation(n):
 			r[i], r[i+1] = r[i+1], r[i]
 		print(r)
 		if r == n:
-			return "done"
+			break
