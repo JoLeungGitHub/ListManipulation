@@ -5,8 +5,7 @@ def list_manipulation(n):
 	while True:
 		r = r[::-1]
 		print(r)
-		for i in range(0, n-1, 2):
-			r[i], r[i+1] = r[i+1], r[i]
+		r[::2], r[1::2] = r[1::2], r[::2]
 		print(r)
 		if r == done:
 			break
