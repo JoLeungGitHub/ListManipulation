@@ -1,11 +1,13 @@
 def list_manipulation(n):
-	r = n[::-1]
-	if len(r) >=2 :
+	r = n
+	print(r)
+	while True:
 		i = 0
-		r[i], r[i+1] = r[i+1], r[i]
-
-[1 ,2, 3, 4]
-[4, 3, 2, 1]
-[3, 4, 1, 2]
-[2, 1, 4, 3]
-[1, 2, 3, 4]
+		r = r[::-1]
+		print(r)
+		while i < len(r) - 1:
+			r[i], r[i+1] = r[i+1], r[i]
+			i += 2
+		print(r)
+		if r == n:
+			return "done"
