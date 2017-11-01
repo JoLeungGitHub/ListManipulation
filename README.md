@@ -11,4 +11,8 @@ ListManipulation.py: What I had started with. Takes a list input, and prints the
 
 ListManipulationIntInput.py: Probably the most correct. Takes an integer input, and prints the permutations of the lists as described above.
 
-ListManipulationEvenIntInput.py: Optimized switch every 2 elements in the list, but it only works for lists with even elements... Takes an even integer input, and prints the permutations of the lists as described above.
+ListManipulationEvenIntInput.py: Optimized rotate every 2 elements in the list part of the function... but only works for inputs that are even. Takes an even integer input, and prints the permutations of the lists as described above.
+
+The files with READABLE at the end of their names are how they were before I tried to make them as small as possible bytes wise.
+
+# TL;DR: SUBMISSION SHOULD BE ListManipulationIntInput.py

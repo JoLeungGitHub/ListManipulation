@@ -1,12 +1,7 @@
-def list_manipulation(n):
-	r = [x for x in range(1, n+1)]
-	print(r)
-	done = r
+def l(n):
+	a=range;p=print;r=[x for x in a(n)];p(r);d=r
 	while True:
-		r = r[::-1]
-		print(r)
-		for i in range(0, n-1, 2):
-			r[i], r[i+1] = r[i+1], r[i]
-		print(r)
-		if r == done:
-			break
+		r=r[::-1];p(r)
+		for i in a(0,n-1,2):r[i],r[i+1]=r[i+1],r[i]
+		p(r)
+		if r==d:break
