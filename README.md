@@ -7,6 +7,16 @@ Write the shortest Python implementation (in bytes) of a function that takes int
 
 NOTE: You are not allowed to use the following functions in your implementation: Lambda, Zip, Map.
 
+NOTE: Please don't forget to write a python function that takes in a number n as a parameter. 
+Here's a hint of what to output. (Either print or return a list of lists) 
+For n = 3 
+Output: 
+[2, 3, 1] 
+[3, 1, 2] 
+[1, 2, 3]
+
+---------------------------------------------------------------------------------------
+
 ListManipulation.py: What I had started with. Takes a list input, and prints the permutations of the lists as described above.
 
 ListManipulationIntInput.py: Probably the most correct. Takes an integer input, and prints the permutations of the lists as described above.
@@ -17,6 +27,4 @@ ListManipulationInput.py: New correct function, this one does the same as ListMa
 
 The files with READABLE at the end of their names are how they were before I tried to make them as small as possible bytes wise.
 
-Noticed the competitions guide lines actually leave a lot to the participants to decide; print as output? list of list? print every step or print after every step is complete? I have pretty much decided to just go with what seems cleanest to me, printing out the "list" every time a full step is complete as well as at the start and end. Even though it would be smaller bytes wise to just concatenate the print statements and remove the beggining xor end print, but then it would print out every rotation and wouldent be as clear what it's doing.
-
-# TL;DR: SUBMISSION SHOULD BE ListManipulationInput.py
+# TL;DR: ListManipulationInput.py if you want the user to be prompted for int n OR ListManipulationIntInput.py if you want a function that takes parameter n

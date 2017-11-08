@@ -1,7 +1,7 @@
 def l(n):
-	p=print;r=n;p(r)
+	r=n
 	while 1:
-		r=r[::-1];p(r)
+		r=r[::-1]
 		for i in range(0,len(n)-1,2):r[i],r[i+1]=r[i+1],r[i]
-		p(r)
+		print(r)
 		if r==n:break
